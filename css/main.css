@@ -1,0 +1,56 @@
+@charset 'UTF-8';
+
+main
+{
+	display: flex;
+	flex-direction: column;
+}
+
+body
+{
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h1
+{
+	margin: 0 auto;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+h2
+{
+	background-color: pink;
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+object
+{
+	width: 200px;
+}
+
+#bigsvg
+{
+	height: 200px;
+}
+
+.icon-container
+{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: #efefef;
+	margin: 0 auto;
+	padding: 50px;
+	margin-top: 20px;
+}
+
+.wrapper
+{
+	border: 1px dashed black;
+	padding: 30px;
+}
