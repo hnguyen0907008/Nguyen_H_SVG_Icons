@@ -29,15 +29,19 @@ h2
 	margin-top: 10px;
 }
 
-object
+.wrapper
 {
-	width: 200px;
+	display: flex;
+	flex-direction: column;
 }
 
-#bigsvg
+object
 {
-	height: 200px;
+	height:150px;
+	margin: 0 auto;
 }
+
+
 
 .icon-container
 {
